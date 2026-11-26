@@ -9,15 +9,12 @@ transactions = [
 flagged_count = 0
 flagged_total = 0
 
-for all in transactions:
-    print("Account ID: ", all["id"], ", transaction amount: ", all["amount"])
+transactions = [1200, 300, 5000, 200, 7300]
 
-for transaction in transactions:
-    if transaction["amount"] >= 5000:
-        print(transaction["id"], transaction["amount"])
-        flagged_count +=1
-        flagged_total = flagged_total + transaction["amount"]
+print(f'Transaction Count = {len(transactions)}')
+print(f'Total Volume: {sum(transactions)}')
+print(f'Largest Transaction: {max(transactions)}')
+print(f'Smallest Transaction: {min(transactions)}')
 
-print(flagged_count)
-print(flagged_total)
-print(transactions[0]["amount"])
+average_transaction = float(sum(transactions)/len(transactions))
+print(f'Average Transaction: ${average_transaction:.2f}')
