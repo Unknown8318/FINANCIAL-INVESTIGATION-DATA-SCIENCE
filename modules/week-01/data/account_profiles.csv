@@ -1,0 +1,12 @@
+account_id,fictional_name,business_type,expected_activity
+A101,Northfield Design,Design studio,Client payments and supply purchases
+A102,Juniper Client Services,Business services,Vendor and contractor payments
+A103,Maple Office Works,Contractor,Service receipts and office rent
+A104,Cedar Supply Co,Equipment reseller,Supply receipts and equipment purchases
+A105,Elm Property Group,Property manager,Recurring rent receipts
+A106,Pine Industrial,Equipment wholesaler,Equipment receipts and occasional refunds
+A107,Harbor Consulting,Consulting company,Professional service receipts and contractor payments; limited history
+A108,Ridge Advisory,Consulting company,Consulting payments and receipts
+A109,Birch Ventures,Business services,Insufficient profile detail
+A110,Willow Enterprises,Business services,Insufficient profile detail
+A111,Aster Settlement Services,Payment services,Settlement activity; underlying beneficiary unavailable

@@ -1,0 +1,6 @@
+transaction_id,timestamp_utc,source_account,destination_account,amount_usd,channel,description
+P001,2026-01-01T09:00:00Z,P001,P002,1200,ACH,Supplies
+P002,2026-01-02T09:00:00Z,P002,P003,300,ACH,Service
+P003,2026-01-03T09:00:00Z,P001,P003,5000,Wire,Inventory
+P004,2026-01-04T09:00:00Z,P002,P001,200,ACH,Refund
+P005,2026-01-05T09:00:00Z,P003,P001,7300,Wire,Settlement
