@@ -52,3 +52,7 @@ Latest submitted script: [lesson_1_2d_reviewed.py](modules/week-01/submissions/l
 - 1.2C: loop counting correct; screening logic demonstrated in A/B and D.
 - 1.2D: submitted script includes correct nested dictionary keyed by transaction ID, source/destination, integer amount and pprint. Technical pass confirmed by static review; no additional points assigned.
 - CSV investigative interpretation and knowledge check remain pending. Scripts have not been execution-tested by instructor.
+
+## Lesson 1.2B practical correction — verified
+
+Reviewed updated `modules/week-01/PracticalExercises/lesson_1_2b.py` (blob e57d0b6c854ca402b15b9bf3ac2e9ac6c4cfaa2e). All five required calculations are correct by static review: count 5, sum 14000, max 7300, min 200, mean 2800. Correction passed (5/5 requirements); no additional weighted points assigned. Suggestions: preserve original list of dictionaries rather than reassign it, remove unused counters, omit redundant float conversion. This supersedes the earlier incomplete 1.2B practical status. CSV interpretation and knowledge check remain pending.
